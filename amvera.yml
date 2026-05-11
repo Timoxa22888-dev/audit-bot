@@ -1,0 +1,8 @@
+meta:
+  toolchain: python
+  version: "1.0"
+  preinstall:
+    - pip install -r requirements.txt
+run:
+  command: python bot.py
+  containerPorts: [5000]
